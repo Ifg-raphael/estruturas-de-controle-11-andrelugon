@@ -11,15 +11,15 @@ if (a < b + c) and (b < a + c) and (c < b + a):
     #Estrutura condicional: Verifica o tipo de triângulo formado
     if (a == b):
         if (b == c): 
-            print ('Triangulo equilátero') #Saída de dados: informa que o triângulo é do tipo equilátero
+            print ('equilátero') #Saída de dados: informa que o triângulo é do tipo equilátero
         elif (b != c):
-            print ('Triângulo isósceles') #Saída de dados: informa que o triângulo é do tipo isósceles
+            print ('isósceles') #Saída de dados: informa que o triângulo é do tipo isósceles
         else:
-            print ('Triângulo escaleno') #Saída de dados: informa que o triângulo é do tipo escaleno
+            print ('escaleno') #Saída de dados: informa que o triângulo é do tipo escaleno
     elif (a != b):
         if (b == c):
-            print ('Triângulo Isósceles') #Saída de dados: informa que o triângulo é do tipo isósceles
+            print ('isósceles') #Saída de dados: informa que o triângulo é do tipo isósceles
         else:
-            print ('Triângulo escaleno') #Saída de dados: informa que o triângulo é do tipo escaleno
+            print ('escaleno') #Saída de dados: informa que o triângulo é do tipo escaleno
 else:
     print('Não forma triângulo') #Saída de dados: informa que os dados informados não forma um triângulo
